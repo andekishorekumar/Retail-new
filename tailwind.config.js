@@ -18,6 +18,13 @@ module.exports = {
         polymerPurple: '#FBD7FF',
         polymerYellow: '#FFDEC1',
       },
+
+      fontFamily: {
+        lato: ['Lato', 'sans-serif'],
+
+        mukta: ['Mukta', 'sans-serif'],
+      },
+
       backgroundImage: (theme) => ({
         customGradient:
           'linear-gradient(to bottom right, #fbd7ff 10%, #ffdec1 80%)',
